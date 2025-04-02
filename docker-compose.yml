@@ -9,7 +9,7 @@ services:
       - SOURCE_TOPIC=gpu-temperature
       - CONSUMER_GROUP=gpu-temp-alert-group
       - TEMPERATURE_THRESHOLD=150.0
-      - SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+      - SLACK_WEBHOOK_URL=https://hooks.slack.com/services/---
       - SLACK_CHANNEL=#alerts
     restart: unless-stopped
     networks:
