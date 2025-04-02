@@ -1,0 +1,49 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+gpu-temp-alert
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below if you want to check in your vendor directory)
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Mac OS
+.DS_Store
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Build output
+build/
+dist/
+
+# Temporary files
+tmp/
+temp/
+
+# Local development files
+*.local
